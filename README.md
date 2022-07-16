@@ -4,3 +4,6 @@ This is a repository that hosts the Dockerfile that has to be pushed to a Docker
 We push our docker images to the public repository antoniobriperez/flask_docker in Docker Hub. We authenticate thanks to GitHub Secrets and this CI flow gets enabled each time we push over master. 
 
 To know about CD part check https://github.com/AntonioBriPerez/argocd-manifests
+
+Our image pushed to Docker Hub: 
+![alt_text](https://github.com/AntonioBriPerez/argocd-manifests/blob/main/images/docker%20push%20CI.png)
